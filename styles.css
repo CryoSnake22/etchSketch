@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.inputContainer {
+  padding: 10px;
+  margin: 20px auto;
+  background-color: lightgray;
+  border: solid lightgray 5px;
+  border-radius: 10px;
+  width: fit-content;
+}
+.button {
+  background-color: white;
+  font-size: medium;
+  font-weight: bold;
+  padding: 10px;
+  border: solid black 2px;
+  border-radius: 5px;
+}
+.input {
+  padding: 10px;
+  border: solid black 2px;
+  border-radius: 5px;
+}
+
+#grid {
+  margin: auto;
+  display: grid;
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  border: solid black 10px;
+  border-radius: 20px;
+}
+body {
+  size: 100%;
+  background-color: lightgrey;
+}
